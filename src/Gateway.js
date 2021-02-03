@@ -119,6 +119,7 @@ class Gateway extends Server {
           params: req.params,
           query: req.query,
           body: req.body,
+          user: req.user,
           headers: req.headers,
           cookies: req.cookies,
           session: req.session,
